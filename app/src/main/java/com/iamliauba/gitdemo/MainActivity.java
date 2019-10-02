@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     //This creates the Toast and button
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button but = findViewById(R.id.button);
